@@ -1,4 +1,4 @@
-# portfolio-mmm
+# Meg Mansour Portfolio Site
 
 ## Project setup
 ```

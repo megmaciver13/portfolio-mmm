@@ -1,15 +1,18 @@
 <template>
-  <img alt="mmm-logo" src="./assets/logo.png">
-  <HelloWorld msg="Meg Mansour"/>
+  <img alt="MM" class="mmm-logo" src="./assets/logo.png">
+  <HomePage name="Meg Mansour"/>
+  <!-- <HelloWorld msg="Hello World"/> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    HomePage
   }
 }
 </script>
@@ -22,12 +25,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-
-  .mmm-logo {
-    max-width: 5rem;
-    width: 100%;
-  }
 }
 
-
+.mmm-logo {
+  max-width: 5rem;
+  width: 100%;
+}
 </style>
