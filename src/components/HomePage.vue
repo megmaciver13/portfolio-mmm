@@ -24,10 +24,16 @@
       </div>
       <div class="row social-media justify-content-center">
         <div class="col-2">
-          <a href="https://www.linkedin.com/in/meg-mansour/" target="_blank">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/meg-mansour/" target="_blank">
+            <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+            LinkedIn
+          </a>
         </div>
         <div class="col-2">
-          <a href="https://github.com/megmaciver13" target="_blank">GitHub</a>
+          <a href="https://github.com/megmaciver13" target="_blank">
+            <font-awesome-icon icon="fa-brands fa-github" />
+            GitHub
+          </a>
         </div>
       </div>
 
