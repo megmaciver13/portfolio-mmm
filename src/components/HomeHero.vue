@@ -1,7 +1,10 @@
 <template>
-  <section>
+  <section class="home-hero">
     <div class="container">
 
+      <div class="row justify-content-center">
+        <img alt="MM" class="mmm-logo mb-5" src="../assets/logo.png">
+      </div>
       <div class="row">
         <h1>{{ name }}</h1>
       </div>
@@ -43,7 +46,7 @@
 
 <script>
 export default {
-  name: 'HomePage',
+  name: 'HomeHero',
   props: {
     name: String
   }
@@ -52,8 +55,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.home-hero {
+  background-color: #7FBACC;
+}
+.mmm-logo {
+  max-width: 5rem;
+  width: 100%;
 }
 ul {
   list-style-type: none;
@@ -62,8 +69,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
